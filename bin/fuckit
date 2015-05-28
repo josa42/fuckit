@@ -2,19 +2,14 @@
 
 fuckit(){
   echo;
-  echo -n "( º_º）  ┬─┬   "; sleep .2;
-  echo -n "";
-  echo -n " ( º_º） ┬─┬   "; sleep .2;
-  echo -n "";
-  echo -n "  ( ºДº）┬─┬   "; sleep .2;
-  echo -n "";
-  echo -n "  (╯’Д’）╯︵⊏   "; sleep .1;
-  echo -n "";
-  echo -n "  (╯’□’）╯︵ ⊏  "; sleep .1;
-  echo -n "";
-  echo -n "  (╯°□°）╯︵ ┻━┻  "; sleep .1;
-  echo -n " F"; sleep .025;
-  echo -n "U"; sleep .025;
+  echo -n "( º_º）  ┬─┬      "; sleep .2; echo -en "\033[2K\r"
+  echo -n " ( º_º） ┬─┬      "; sleep .2; echo -en "\033[2K\r"
+  echo -n "  ( ºДº）┬─┬      "; sleep .2; echo -en "\033[2K\r"
+  echo -n "  (╯’Д’）╯︵⊏     "; sleep .1; echo -en "\033[2K\r"
+  echo -n "  (╯’□’）╯︵ ⊏    "; sleep .1; echo -en "\033[2K\r"
+  echo -n "  (╯°□°）╯︵ ┻━┻  "; sleep .5;
+  echo -n "F"; sleep .025;
+  echo -n "U"; sleep 0.13;
   echo -n "C"; sleep .025;
   echo -n "K"; sleep .025;
   echo -n " "; sleep .025;
@@ -22,7 +17,7 @@ fuckit(){
   echo -n "T"; sleep .05;
   echo -n "! ";
   echo;
-  echo; sleep .5;
+  echo; sleep 1;
   return 0
 }
 
