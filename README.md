@@ -2,6 +2,8 @@
 a simple script that will allow you to express that feeing of
 > F**K THAT S**T!
 
+![](screenshot.gif)
+
 ## install
 - clone repo
 - run `./install`
@@ -26,4 +28,3 @@ Paul Sturm (get a github account, lazy bastard!)
 
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/stryju/fuckit/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
